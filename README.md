@@ -635,7 +635,8 @@ E:\Projects\Credit Card Analysis\
 │   ├── figures/                                EDA figures (35+ visualizations)
 │   ├── figures_model/                          v1 model figures (10 files)
 │   ├── figures_dl/                             v2 DL figures (4 files)
-│   └── figures_v4/                             v4 figures (6 files)
+│   ├── figures_v4/                             v4 figures (6 files)
+│   └── notebook_outputs/                       84 PNGs extracted from notebook outputs
 │       ├── 01_fraudformer_curves.png
 │       ├── 02_aegan_distribution.png
 │       ├── 03_aegan_curves.png
@@ -942,7 +943,7 @@ This project is provided for educational and research purposes. The synthetic da
 | Training Time (CPU) | ~26 min end-to-end |
 | Models Trained (all versions) | 10 |
 | Custom Architectures | 5 (FraudFormer, AEGAN, FraudAttnNet, WGAN-GP, FraudCNN) |
-| Figures | 55+ (6 v4 + 10 v1 + 35+ EDA) |
+| Figures | 106+ (6 v4 + 10 v1 + 4 v2 + 84 notebook-extracted + 2 charts) |
 | Reproducible | Yes (seed 42) |
 | Leak-Free | Verified (single-feature ROC-AUC < 0.60) |
 
