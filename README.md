@@ -576,6 +576,10 @@ Sections:
 6. Cleaning: deduplication, imputation, winsorization
 7. Save cleaned dataset
 
+### 3. `credit-card-analysis-file.ipynb`
+
+Covers the **Version 4.0 advanced pipeline**: leak-free data generation, messiness injection, cleaning, time-aware split, LightGBM baseline, FraudFormer (custom transformer), AEGAN (custom adversarial autoencoder), augmentation, calibration, threshold optimization, and final comparison. This is the notebook that produces the `02_models/models_v4/`, `03_figures/figures_v4/`, and `04_reports/` v4 artifacts.
+
 ### 2. `fraud-data-analysis-and-model.ipynb`
 
 Covers **Stage 3 (EDA)** and **Stage 4 (Modeling)**.
@@ -902,6 +906,10 @@ The v4 release adds the following paths alongside the existing project:
 04_reports/
 ├── final_comparison.csv
 └── metadata.json
+
+Top-level v4 artifacts:
+├── credit-card-analysis-file.ipynb        v4 end-to-end notebook
+└── fraudguard_v4_20261017_1520.zip        Self-contained v4 package
 ```
 
 ### v4 Usage and Deployment
