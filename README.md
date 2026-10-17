@@ -597,511 +597,511 @@ Reduced PR-AUC to 0.9986 (still too high but better). Identified burst features 
 
 ## Full Image Gallery — All Notebook Outputs
 
-All 84 figures extracted from the Jupyter notebook outputs (72 from raud-data-analysis-and-model.ipynb + 12 from credit-card-analysis-file.ipynb), rendered inline with captions for complete visual reference.
+All 84 figures extracted from the Jupyter notebook outputs (72 from `fraud-data-analysis-and-model.ipynb` + 12 from `credit-card-analysis-file.ipynb`), each with a descriptive caption.
 
-### Figure 1 — v4 Pipeline
-
-![credit-card-analysis-file_001.png](03_figures/notebook_outputs/credit-card-analysis-file_001.png)
-
-*credit-card-analysis-file_001.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 2 — v4 Pipeline
-
-![credit-card-analysis-file_002.png](03_figures/notebook_outputs/credit-card-analysis-file_002.png)
-
-*credit-card-analysis-file_002.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 3 — v4 Pipeline
-
-![credit-card-analysis-file_003.png](03_figures/notebook_outputs/credit-card-analysis-file_003.png)
-
-*credit-card-analysis-file_003.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 4 — v4 Pipeline
-
-![credit-card-analysis-file_004.png](03_figures/notebook_outputs/credit-card-analysis-file_004.png)
-
-*credit-card-analysis-file_004.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 5 — v4 Pipeline
-
-![credit-card-analysis-file_005.png](03_figures/notebook_outputs/credit-card-analysis-file_005.png)
-
-*credit-card-analysis-file_005.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 6 — v4 Pipeline
-
-![credit-card-analysis-file_006.png](03_figures/notebook_outputs/credit-card-analysis-file_006.png)
-
-*credit-card-analysis-file_006.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 7 — v4 Pipeline
-
-![credit-card-analysis-file_007.png](03_figures/notebook_outputs/credit-card-analysis-file_007.png)
-
-*credit-card-analysis-file_007.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 8 — v4 Pipeline
-
-![credit-card-analysis-file_008.png](03_figures/notebook_outputs/credit-card-analysis-file_008.png)
-
-*credit-card-analysis-file_008.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 9 — v4 Pipeline
-
-![credit-card-analysis-file_009.png](03_figures/notebook_outputs/credit-card-analysis-file_009.png)
-
-*credit-card-analysis-file_009.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 10 — v4 Pipeline
-
-![credit-card-analysis-file_010.png](03_figures/notebook_outputs/credit-card-analysis-file_010.png)
-
-*credit-card-analysis-file_010.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 11 — v4 Pipeline
-
-![credit-card-analysis-file_011.png](03_figures/notebook_outputs/credit-card-analysis-file_011.png)
-
-*credit-card-analysis-file_011.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 12 — v4 Pipeline
-
-![credit-card-analysis-file_012.png](03_figures/notebook_outputs/credit-card-analysis-file_012.png)
-
-*credit-card-analysis-file_012.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
-
-### Figure 13 — v1 EDA & Modeling
+### 1. Bar chart
 
 ![fraud-data-analysis-and-model_001.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_001.png)
 
-*fraud-data-analysis-and-model_001.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Bar chart.*
 
-### Figure 14 — v1 EDA & Modeling
+### 2. Full distribution (log scale on y-axis)
 
 ![fraud-data-analysis-and-model_002.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_002.png)
 
-*fraud-data-analysis-and-model_002.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Full distribution (log scale on y-axis).*
 
-### Figure 15 — v1 EDA & Modeling
+### 3. fig, ax = plt.subplots(figsize=(11, 5))
 
 ![fraud-data-analysis-and-model_003.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_003.png)
 
-*fraud-data-analysis-and-model_003.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fig, ax = plt.subplots(figsize=(11, 5)).*
 
-### Figure 16 — v1 EDA & Modeling
+### 4. cat_stats = (df.groupby("merchant_category")
 
 ![fraud-data-analysis-and-model_004.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_004.png)
 
-*fraud-data-analysis-and-model_004.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*cat_stats = (df.groupby("merchant_category").*
 
-### Figure 17 — v1 EDA & Modeling
+### 5. top_merchants = df["merchant"].value_counts().head(15).index
 
 ![fraud-data-analysis-and-model_005.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_005.png)
 
-*fraud-data-analysis-and-model_005.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_merchants = df["merchant"].value_counts().head(15).index.*
 
-### Figure 18 — v1 EDA & Modeling
+### 6. hour_stats = (df.groupby("hour_of_day")
 
 ![fraud-data-analysis-and-model_006.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_006.png)
 
-*fraud-data-analysis-and-model_006.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*hour_stats = (df.groupby("hour_of_day").*
 
-### Figure 19 — v1 EDA & Modeling
+### 7. hour_stats = (df.groupby("hour_of_day")
 
 ![fraud-data-analysis-and-model_007.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_007.png)
 
-*fraud-data-analysis-and-model_007.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*hour_stats = (df.groupby("hour_of_day").*
 
-### Figure 20 — v1 EDA & Modeling
+### 8. country_stats = (df.groupby("country")
 
 ![fraud-data-analysis-and-model_008.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_008.png)
 
-*fraud-data-analysis-and-model_008.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*country_stats = (df.groupby("country").*
 
-### Figure 21 — v1 EDA & Modeling
+### 9. fig, axes = plt.subplots(1, 3, figsize=(16, 5))
 
 ![fraud-data-analysis-and-model_009.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_009.png)
 
-*fraud-data-analysis-and-model_009.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fig, axes = plt.subplots(1, 3, figsize=(16, 5)).*
 
-### Figure 22 — v1 EDA & Modeling
+### 10. Cross tab: international x fraud
 
 ![fraud-data-analysis-and-model_010.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_010.png)
 
-*fraud-data-analysis-and-model_010.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cross tab: international x fraud.*
 
-### Figure 23 — v1 EDA & Modeling
+### 11. Top correlations with target
 
 ![fraud-data-analysis-and-model_011.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_011.png)
 
-*fraud-data-analysis-and-model_011.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Top correlations with target.*
 
-### Figure 24 — v1 EDA & Modeling
+### 12. target_corr = (df.select_dtypes(include=np.number)
 
 ![fraud-data-analysis-and-model_012.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_012.png)
 
-*fraud-data-analysis-and-model_012.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*target_corr = (df.select_dtypes(include=np.number).*
 
-### Figure 25 — v1 EDA & Modeling
+### 13. fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
 ![fraud-data-analysis-and-model_013.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_013.png)
 
-*fraud-data-analysis-and-model_013.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fig, axes = plt.subplots(1, 2, figsize=(14, 5)).*
 
-### Figure 26 — v1 EDA & Modeling
+### 14. Binned fraud rate
 
 ![fraud-data-analysis-and-model_014.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_014.png)
 
-*fraud-data-analysis-and-model_014.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Binned fraud rate.*
 
-### Figure 27 — v1 EDA & Modeling
+### 15. Account age
 
 ![fraud-data-analysis-and-model_015.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_015.png)
 
-*fraud-data-analysis-and-model_015.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Account age.*
 
-### Figure 28 — v1 EDA & Modeling
+### 16. num_cols = ["amount", "avg_amount_30d", "credit_limit", "account_age_d
 
 ![fraud-data-analysis-and-model_016.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_016.png)
 
-*fraud-data-analysis-and-model_016.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*num_cols = ["amount", "avg_amount_30d", "credit_limit", "account_age_d.*
 
-### Figure 29 — v1 EDA & Modeling
+### 17. num_cols = ["amount", "avg_amount_30d", "credit_limit", "account_age_d
 
 ![fraud-data-analysis-and-model_017.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_017.png)
 
-*fraud-data-analysis-and-model_017.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*num_cols = ["amount", "avg_amount_30d", "credit_limit", "account_age_d.*
 
-### Figure 30 — v1 EDA & Modeling
+### 18. fig, axes = plt.subplots(1, 3, figsize=(16, 5))
 
 ![fraud-data-analysis-and-model_018.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_018.png)
 
-*fraud-data-analysis-and-model_018.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fig, axes = plt.subplots(1, 3, figsize=(16, 5)).*
 
-### Figure 31 — v1 EDA & Modeling
+### 19. monthly = (df.groupby(["year", "month"])
 
 ![fraud-data-analysis-and-model_019.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_019.png)
 
-*fraud-data-analysis-and-model_019.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*monthly = (df.groupby(["year", "month"]).*
 
-### Figure 32 — v1 EDA & Modeling
+### 20. pivot = df.pivot_table(
 
 ![fraud-data-analysis-and-model_020.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_020.png)
 
-*fraud-data-analysis-and-model_020.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*pivot = df.pivot_table(.*
 
-### Figure 33 — v1 EDA & Modeling
+### 21. pivot = df.pivot_table(
 
 ![fraud-data-analysis-and-model_021.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_021.png)
 
-*fraud-data-analysis-and-model_021.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*pivot = df.pivot_table(.*
 
-### Figure 34 — v1 EDA & Modeling
+### 22. top_countries = df["country"].value_counts().head(12).index
 
 ![fraud-data-analysis-and-model_022.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_022.png)
 
-*fraud-data-analysis-and-model_022.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_countries = df["country"].value_counts().head(12).index.*
 
-### Figure 35 — v1 EDA & Modeling
+### 23. df["amount_decile"] = pd.qcut(df["amount"], q=10, duplicates="drop",
 
 ![fraud-data-analysis-and-model_023.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_023.png)
 
-*fraud-data-analysis-and-model_023.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*df["amount_decile"] = pd.qcut(df["amount"], q=10, duplicates="drop",.*
 
-### Figure 36 — v1 EDA & Modeling
+### 24. bins = [0, 30, 90, 180, 365, 730, 18250]
 
 ![fraud-data-analysis-and-model_024.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_024.png)
 
-*fraud-data-analysis-and-model_024.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*bins = [0, 30, 90, 180, 365, 730, 18250].*
 
-### Figure 37 — v1 EDA & Modeling
+### 25. bins = [0, 50000, 100000, 200000, 500000, 1_000_001]
 
 ![fraud-data-analysis-and-model_025.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_025.png)
 
-*fraud-data-analysis-and-model_025.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*bins = [0, 50000, 100000, 200000, 500000, 1_000_001].*
 
-### Figure 38 — v1 EDA & Modeling
+### 26. sample = df.sample(15000, random_state=RANDOM_STATE)
 
 ![fraud-data-analysis-and-model_026.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_026.png)
 
-*fraud-data-analysis-and-model_026.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*sample = df.sample(15000, random_state=RANDOM_STATE).*
 
-### Figure 39 — v1 EDA & Modeling
+### 27. pair_cols = ["amount", "avg_amount_30d", "txn_count_10min",
 
 ![fraud-data-analysis-and-model_027.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_027.png)
 
-*fraud-data-analysis-and-model_027.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*pair_cols = ["amount", "avg_amount_30d", "txn_count_10min",.*
 
-### Figure 40 — v1 EDA & Modeling
+### 28. Sometimes fraudsters use certain BIN ranges; simulate check
 
 ![fraud-data-analysis-and-model_028.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_028.png)
 
-*fraud-data-analysis-and-model_028.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Sometimes fraudsters use certain BIN ranges; simulate check.*
 
-### Figure 41 — v1 EDA & Modeling
+### 29. Night vs day
 
 ![fraud-data-analysis-and-model_029.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_029.png)
 
-*fraud-data-analysis-and-model_029.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Night vs day.*
 
-### Figure 42 — v1 EDA & Modeling
+### 30. top_fraud_customers = (df[df["fraud_label"] == 1]
 
 ![fraud-data-analysis-and-model_030.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_030.png)
 
-*fraud-data-analysis-and-model_030.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_fraud_customers = (df[df["fraud_label"] == 1].*
 
-### Figure 43 — v1 EDA & Modeling
+### 31. high_risk = ["Crypto", "Gambling", "Adult", "Wire Transfer", "Gift Car
 
 ![fraud-data-analysis-and-model_031.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_031.png)
 
-*fraud-data-analysis-and-model_031.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*high_risk = ["Crypto", "Gambling", "Adult", "Wire Transfer", "Gift Car.*
 
-### Figure 44 — v1 EDA & Modeling
+### 32. from scipy.stats import mannwhitneyu
 
 ![fraud-data-analysis-and-model_032.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_032.png)
 
-*fraud-data-analysis-and-model_032.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*from scipy.stats import mannwhitneyu.*
 
-### Figure 45 — v1 EDA & Modeling
+### 33. weekly = (df.set_index("timestamp")
 
 ![fraud-data-analysis-and-model_033.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_033.png)
 
-*fraud-data-analysis-and-model_033.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*weekly = (df.set_index("timestamp").*
 
-### Figure 46 — v1 EDA & Modeling
+### 34. top_cats = df["merchant_category"].value_counts().head(6).index
 
 ![fraud-data-analysis-and-model_034.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_034.png)
 
-*fraud-data-analysis-and-model_034.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_cats = df["merchant_category"].value_counts().head(6).index.*
 
-### Figure 47 — v1 EDA & Modeling
+### 35. Cell 40 (Final Fix): Manual Joint Plot - no seaborn jointplot bugs
 
 ![fraud-data-analysis-and-model_035.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_035.png)
 
-*fraud-data-analysis-and-model_035.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 40 (Final Fix): Manual Joint Plot - no seaborn jointplot bugs.*
 
-### Figure 48 — v1 EDA & Modeling
+### 36. sample = df.sample(10000, random_state=RANDOM_STATE)
 
 ![fraud-data-analysis-and-model_036.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_036.png)
 
-*fraud-data-analysis-and-model_036.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*sample = df.sample(10000, random_state=RANDOM_STATE).*
 
-### Figure 49 — v1 EDA & Modeling
+### 37. top_cats = df["merchant_category"].value_counts().head(8).index
 
 ![fraud-data-analysis-and-model_037.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_037.png)
 
-*fraud-data-analysis-and-model_037.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_cats = df["merchant_category"].value_counts().head(8).index.*
 
-### Figure 50 — v1 EDA & Modeling
+### 38. sample = df.sample(2000, random_state=RANDOM_STATE)
 
 ![fraud-data-analysis-and-model_038.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_038.png)
 
-*fraud-data-analysis-and-model_038.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*sample = df.sample(2000, random_state=RANDOM_STATE).*
 
-### Figure 51 — v1 EDA & Modeling
+### 39. legit_sample = df[df["fraud_label"] == 0].sample(2000, random_state=RA
 
 ![fraud-data-analysis-and-model_039.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_039.png)
 
-*fraud-data-analysis-and-model_039.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*legit_sample = df[df["fraud_label"] == 0].sample(2000, random_state=RA.*
 
-### Figure 52 — v1 EDA & Modeling
+### 40. import numpy as np
 
 ![fraud-data-analysis-and-model_040.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_040.png)
 
-*fraud-data-analysis-and-model_040.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*import numpy as np.*
 
-### Figure 53 — v1 EDA & Modeling
+### 41. from scipy.stats import gaussian_kde
 
 ![fraud-data-analysis-and-model_041.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_041.png)
 
-*fraud-data-analysis-and-model_041.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*from scipy.stats import gaussian_kde.*
 
-### Figure 54 — v1 EDA & Modeling
+### 42. fig, axes = plt.subplots(1, 3, figsize=(16, 5))
 
 ![fraud-data-analysis-and-model_042.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_042.png)
 
-*fraud-data-analysis-and-model_042.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fig, axes = plt.subplots(1, 3, figsize=(16, 5)).*
 
-### Figure 55 — v1 EDA & Modeling
+### 43. daily = (df.set_index("timestamp")
 
 ![fraud-data-analysis-and-model_043.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_043.png)
 
-*fraud-data-analysis-and-model_043.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*daily = (df.set_index("timestamp").*
 
-### Figure 56 — v1 EDA & Modeling
+### 44. top_cats = df["merchant_category"].value_counts().head(10).index
 
 ![fraud-data-analysis-and-model_044.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_044.png)
 
-*fraud-data-analysis-and-model_044.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_cats = df["merchant_category"].value_counts().head(10).index.*
 
-### Figure 57 — v1 EDA & Modeling
+### 45. top_countries = df["country"].value_counts().head(12).index
 
 ![fraud-data-analysis-and-model_045.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_045.png)
 
-*fraud-data-analysis-and-model_045.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*top_countries = df["country"].value_counts().head(12).index.*
 
-### Figure 58 — v1 EDA & Modeling
+### 46. Cell 51 (Replacement): Bubble Chart - Category Volume, Fraud Rate, Avg Amount
 
 ![fraud-data-analysis-and-model_046.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_046.png)
 
-*fraud-data-analysis-and-model_046.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 51 (Replacement): Bubble Chart - Category Volume, Fraud Rate, Avg Amount.*
 
-### Figure 59 — v1 EDA & Modeling
+### 47. Cell 52 (Fixed): Contour Plot - Fraud Amount vs Daily Velocity
 
 ![fraud-data-analysis-and-model_047.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_047.png)
 
-*fraud-data-analysis-and-model_047.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 52 (Fixed): Contour Plot - Fraud Amount vs Daily Velocity.*
 
-### Figure 60 — v1 EDA & Modeling
+### 48. from mpl_toolkits.mplot3d import Axes3D
 
 ![fraud-data-analysis-and-model_048.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_048.png)
 
-*fraud-data-analysis-and-model_048.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*from mpl_toolkits.mplot3d import Axes3D.*
 
-### Figure 61 — v1 EDA & Modeling
+### 49. hourly = (df.groupby("hour_of_day")
 
 ![fraud-data-analysis-and-model_049.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_049.png)
 
-*fraud-data-analysis-and-model_049.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*hourly = (df.groupby("hour_of_day").*
 
-### Figure 62 — v1 EDA & Modeling
+### 50. fraud_df = df[df["fraud_label"] == 1]
 
 ![fraud-data-analysis-and-model_050.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_050.png)
 
-*fraud-data-analysis-and-model_050.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*fraud_df = df[df["fraud_label"] == 1].*
 
-### Figure 63 — v1 EDA & Modeling
+### 51. Cell 56 (Alt 2): Split Violin - Amount by Class within International Groups
 
 ![fraud-data-analysis-and-model_051.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_051.png)
 
-*fraud-data-analysis-and-model_051.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 56 (Alt 2): Split Violin - Amount by Class within International Groups.*
 
-### Figure 64 — v1 EDA & Modeling
+### 52. Cell 57 (Replacement A): Grouped Bar - Fraud Rate by Category x Channel
 
 ![fraud-data-analysis-and-model_052.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_052.png)
 
-*fraud-data-analysis-and-model_052.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 57 (Replacement A): Grouped Bar - Fraud Rate by Category x Channel.*
 
-### Figure 65 — v1 EDA & Modeling
+### 53. Cell 58 (Replacement B): Grouped Bar - Class Distribution per Channel
 
 ![fraud-data-analysis-and-model_053.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_053.png)
 
-*fraud-data-analysis-and-model_053.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 58 (Replacement B): Grouped Bar - Class Distribution per Channel.*
 
-### Figure 66 — v1 EDA & Modeling
+### 54. Combine merchant names weighted by fraud count
 
 ![fraud-data-analysis-and-model_054.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_054.png)
 
-*fraud-data-analysis-and-model_054.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Combine merchant names weighted by fraud count.*
 
-### Figure 67 — v1 EDA & Modeling
+### 55. Sort by amount descending, see cumulative fraud capture
 
 ![fraud-data-analysis-and-model_055.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_055.png)
 
-*fraud-data-analysis-and-model_055.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Sort by amount descending, see cumulative fraud capture.*
 
-### Figure 68 — v1 EDA & Modeling
+### 56. from scipy.stats import ks_2samp
 
 ![fraud-data-analysis-and-model_056.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_056.png)
 
-*fraud-data-analysis-and-model_056.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*from scipy.stats import ks_2samp.*
 
-### Figure 69 — v1 EDA & Modeling
+### 57. Overlap coefficient = area under min(pdf_legit, pdf_fraud)
 
 ![fraud-data-analysis-and-model_057.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_057.png)
 
-*fraud-data-analysis-and-model_057.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Overlap coefficient = area under min(pdf_legit, pdf_fraud).*
 
-### Figure 70 — v1 EDA & Modeling
+### 58. merchant_fraud = (df[df["fraud_label"] == 1]
 
 ![fraud-data-analysis-and-model_058.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_058.png)
 
-*fraud-data-analysis-and-model_058.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*merchant_fraud = (df[df["fraud_label"] == 1].*
 
-### Figure 71 — v1 EDA & Modeling
+### 59. df["amount_bin"] = pd.qcut(df["amount"], q=8, duplicates="drop",
 
 ![fraud-data-analysis-and-model_059.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_059.png)
 
-*fraud-data-analysis-and-model_059.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*df["amount_bin"] = pd.qcut(df["amount"], q=8, duplicates="drop",.*
 
-### Figure 72 — v1 EDA & Modeling
+### 60. Cell 11: PR curve with both thresholds marked
 
 ![fraud-data-analysis-and-model_060.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_060.png)
 
-*fraud-data-analysis-and-model_060.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 11: PR curve with both thresholds marked.*
 
-### Figure 73 — v1 EDA & Modeling
+### 61. Cell 12: ROC curve
 
 ![fraud-data-analysis-and-model_061.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_061.png)
 
-*fraud-data-analysis-and-model_061.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 12: ROC curve.*
 
-### Figure 74 — v1 EDA & Modeling
+### 62. Cell 13: Top 25 feature importances
 
 ![fraud-data-analysis-and-model_062.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_062.png)
 
-*fraud-data-analysis-and-model_062.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 13: Top 25 feature importances.*
 
-### Figure 75 — v1 EDA & Modeling
+### 63. Cell 15 (Final Fix): Manual isotonic calibration (no sklearn wrapper needed)
 
 ![fraud-data-analysis-and-model_063.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_063.png)
 
-*fraud-data-analysis-and-model_063.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 15 (Final Fix): Manual isotonic calibration (no sklearn wrapper needed).*
 
-### Figure 76 — v1 EDA & Modeling
+### 64. Cell 17: Confusion matrices for both thresholds
 
 ![fraud-data-analysis-and-model_064.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_064.png)
 
-*fraud-data-analysis-and-model_064.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 17: Confusion matrices for both thresholds.*
 
-### Figure 77 — v1 EDA & Modeling
+### 65. Cell 6: Loss and PR-AUC curves
 
 ![fraud-data-analysis-and-model_065.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_065.png)
 
-*fraud-data-analysis-and-model_065.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 6: Loss and PR-AUC curves.*
 
-### Figure 78 — v1 EDA & Modeling
+### 66. Cell 12: GRU training curves
 
 ![fraud-data-analysis-and-model_066.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_066.png)
 
-*fraud-data-analysis-and-model_066.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 12: GRU training curves.*
 
-### Figure 79 — v1 EDA & Modeling
+### 67. Cell 15: Multi-model ROC + PR comparison
 
 ![fraud-data-analysis-and-model_067.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_067.png)
 
-*fraud-data-analysis-and-model_067.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 15: Multi-model ROC + PR comparison.*
 
-### Figure 80 — v1 EDA & Modeling
+### 68. Cell 3.9 (Fixed) — Calibrate first, then optimize threshold
 
 ![fraud-data-analysis-and-model_068.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_068.png)
 
-*fraud-data-analysis-and-model_068.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 3.9 (Fixed) — Calibrate first, then optimize threshold.*
 
-### Figure 81 — v1 EDA & Modeling
+### 69. Cell 3.11 (Fixed) — Test evaluation with correct thresholds
 
 ![fraud-data-analysis-and-model_069.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_069.png)
 
-*fraud-data-analysis-and-model_069.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 3.11 (Fixed) — Test evaluation with correct thresholds.*
 
-### Figure 82 — v1 EDA & Modeling
+### 70. Cell 4.6 — ROC and PR curves
 
 ![fraud-data-analysis-and-model_070.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_070.png)
 
-*fraud-data-analysis-and-model_070.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 4.6 — ROC and PR curves.*
 
-### Figure 83 — v1 EDA & Modeling
+### 71. Cell 5.3 — Render final results table as publication-quality figure
 
 ![fraud-data-analysis-and-model_071.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_071.png)
 
-*fraud-data-analysis-and-model_071.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 5.3 — Render final results table as publication-quality figure.*
 
-### Figure 84 — v1 EDA & Modeling
+### 72. Cell 5.4 — Bar chart comparison of model metrics
 
 ![fraud-data-analysis-and-model_072.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_072.png)
 
-*fraud-data-analysis-and-model_072.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+*Cell 5.4 — Bar chart comparison of model metrics.*
+
+### 73. Cell 4.3 (Replacement) — Evaluate FraudFormer
+
+![credit-card-analysis-file_001.png](03_figures/notebook_outputs/credit-card-analysis-file_001.png)
+
+*Cell 4.3 (Replacement) — Evaluate FraudFormer.*
+
+### 74. Cell 6.3 (Replacement) — Generate synthetic fraud and validate
+
+![credit-card-analysis-file_002.png](03_figures/notebook_outputs/credit-card-analysis-file_002.png)
+
+*Cell 6.3 (Replacement) — Generate synthetic fraud and validate.*
+
+### 75. Cell 6.3 (Replacement) — Generate synthetic fraud and validate
+
+![credit-card-analysis-file_003.png](03_figures/notebook_outputs/credit-card-analysis-file_003.png)
+
+*Cell 6.3 (Replacement) — Generate synthetic fraud and validate.*
+
+### 76. Cell 8.2 (Replacement) — ROC + PR curves
+
+![credit-card-analysis-file_004.png](03_figures/notebook_outputs/credit-card-analysis-file_004.png)
+
+*Cell 8.2 (Replacement) — ROC + PR curves.*
+
+### 77. Cell 8.3 (Replacement) — Confusion matrices
+
+![credit-card-analysis-file_005.png](03_figures/notebook_outputs/credit-card-analysis-file_005.png)
+
+*Cell 8.3 (Replacement) — Confusion matrices.*
+
+### 78. Cell 8.4 (Replacement) — Extract FraudFormer attention
+
+![credit-card-analysis-file_006.png](03_figures/notebook_outputs/credit-card-analysis-file_006.png)
+
+*Cell 8.4 (Replacement) — Extract FraudFormer attention.*
+
+### 79. Cell 5.4 — FraudFormer evaluation
+
+![credit-card-analysis-file_007.png](03_figures/notebook_outputs/credit-card-analysis-file_007.png)
+
+*Cell 5.4 — FraudFormer evaluation.*
+
+### 80. Cell 6.3 — Generate synthetic fraud
+
+![credit-card-analysis-file_008.png](03_figures/notebook_outputs/credit-card-analysis-file_008.png)
+
+*Cell 6.3 — Generate synthetic fraud.*
+
+### 81. Cell 6.3 — Generate synthetic fraud
+
+![credit-card-analysis-file_009.png](03_figures/notebook_outputs/credit-card-analysis-file_009.png)
+
+*Cell 6.3 — Generate synthetic fraud.*
+
+### 82. Cell 8.2 — ROC and PR curves
+
+![credit-card-analysis-file_010.png](03_figures/notebook_outputs/credit-card-analysis-file_010.png)
+
+*Cell 8.2 — ROC and PR curves.*
+
+### 83. Cell 8.3 — Confusion matrices
+
+![credit-card-analysis-file_011.png](03_figures/notebook_outputs/credit-card-analysis-file_011.png)
+
+*Cell 8.3 — Confusion matrices.*
+
+### 84. Cell 8.4 — FraudFormer attention extraction
+
+![credit-card-analysis-file_012.png](03_figures/notebook_outputs/credit-card-analysis-file_012.png)
+
+*Cell 8.4 — FraudFormer attention extraction.*
 
 ## Repository Structure
 
