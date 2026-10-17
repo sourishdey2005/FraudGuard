@@ -597,175 +597,511 @@ Reduced PR-AUC to 0.9986 (still too high but better). Identified burst features 
 
 ## Full Image Gallery — All Notebook Outputs
 
-All 84 figures extracted from the Jupyter notebook outputs (72 from raud-data-analysis-and-model.ipynb + 12 from credit-card-analysis-file.ipynb), rendered inline for complete visual reference.
+All 84 figures extracted from the Jupyter notebook outputs (72 from raud-data-analysis-and-model.ipynb + 12 from credit-card-analysis-file.ipynb), rendered inline with captions for complete visual reference.
+
+### Figure 1 — v4 Pipeline
 
 ![credit-card-analysis-file_001.png](03_figures/notebook_outputs/credit-card-analysis-file_001.png)
 
+*credit-card-analysis-file_001.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 2 — v4 Pipeline
+
 ![credit-card-analysis-file_002.png](03_figures/notebook_outputs/credit-card-analysis-file_002.png)
+
+*credit-card-analysis-file_002.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 3 — v4 Pipeline
 
 ![credit-card-analysis-file_003.png](03_figures/notebook_outputs/credit-card-analysis-file_003.png)
 
+*credit-card-analysis-file_003.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 4 — v4 Pipeline
+
 ![credit-card-analysis-file_004.png](03_figures/notebook_outputs/credit-card-analysis-file_004.png)
+
+*credit-card-analysis-file_004.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 5 — v4 Pipeline
 
 ![credit-card-analysis-file_005.png](03_figures/notebook_outputs/credit-card-analysis-file_005.png)
 
+*credit-card-analysis-file_005.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 6 — v4 Pipeline
+
 ![credit-card-analysis-file_006.png](03_figures/notebook_outputs/credit-card-analysis-file_006.png)
+
+*credit-card-analysis-file_006.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 7 — v4 Pipeline
 
 ![credit-card-analysis-file_007.png](03_figures/notebook_outputs/credit-card-analysis-file_007.png)
 
+*credit-card-analysis-file_007.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 8 — v4 Pipeline
+
 ![credit-card-analysis-file_008.png](03_figures/notebook_outputs/credit-card-analysis-file_008.png)
+
+*credit-card-analysis-file_008.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 9 — v4 Pipeline
 
 ![credit-card-analysis-file_009.png](03_figures/notebook_outputs/credit-card-analysis-file_009.png)
 
+*credit-card-analysis-file_009.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 10 — v4 Pipeline
+
 ![credit-card-analysis-file_010.png](03_figures/notebook_outputs/credit-card-analysis-file_010.png)
+
+*credit-card-analysis-file_010.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 11 — v4 Pipeline
 
 ![credit-card-analysis-file_011.png](03_figures/notebook_outputs/credit-card-analysis-file_011.png)
 
+*credit-card-analysis-file_011.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 12 — v4 Pipeline
+
 ![credit-card-analysis-file_012.png](03_figures/notebook_outputs/credit-card-analysis-file_012.png)
+
+*credit-card-analysis-file_012.png — extracted from notebook cell output, part of the v4 Pipeline analysis.*
+
+### Figure 13 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_001.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_001.png)
 
+*fraud-data-analysis-and-model_001.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 14 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_002.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_002.png)
+
+*fraud-data-analysis-and-model_002.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 15 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_003.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_003.png)
 
+*fraud-data-analysis-and-model_003.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 16 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_004.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_004.png)
+
+*fraud-data-analysis-and-model_004.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 17 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_005.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_005.png)
 
+*fraud-data-analysis-and-model_005.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 18 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_006.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_006.png)
+
+*fraud-data-analysis-and-model_006.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 19 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_007.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_007.png)
 
+*fraud-data-analysis-and-model_007.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 20 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_008.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_008.png)
+
+*fraud-data-analysis-and-model_008.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 21 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_009.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_009.png)
 
+*fraud-data-analysis-and-model_009.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 22 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_010.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_010.png)
+
+*fraud-data-analysis-and-model_010.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 23 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_011.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_011.png)
 
+*fraud-data-analysis-and-model_011.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 24 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_012.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_012.png)
+
+*fraud-data-analysis-and-model_012.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 25 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_013.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_013.png)
 
+*fraud-data-analysis-and-model_013.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 26 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_014.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_014.png)
+
+*fraud-data-analysis-and-model_014.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 27 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_015.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_015.png)
 
+*fraud-data-analysis-and-model_015.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 28 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_016.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_016.png)
+
+*fraud-data-analysis-and-model_016.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 29 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_017.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_017.png)
 
+*fraud-data-analysis-and-model_017.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 30 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_018.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_018.png)
+
+*fraud-data-analysis-and-model_018.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 31 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_019.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_019.png)
 
+*fraud-data-analysis-and-model_019.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 32 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_020.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_020.png)
+
+*fraud-data-analysis-and-model_020.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 33 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_021.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_021.png)
 
+*fraud-data-analysis-and-model_021.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 34 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_022.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_022.png)
+
+*fraud-data-analysis-and-model_022.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 35 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_023.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_023.png)
 
+*fraud-data-analysis-and-model_023.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 36 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_024.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_024.png)
+
+*fraud-data-analysis-and-model_024.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 37 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_025.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_025.png)
 
+*fraud-data-analysis-and-model_025.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 38 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_026.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_026.png)
+
+*fraud-data-analysis-and-model_026.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 39 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_027.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_027.png)
 
+*fraud-data-analysis-and-model_027.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 40 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_028.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_028.png)
+
+*fraud-data-analysis-and-model_028.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 41 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_029.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_029.png)
 
+*fraud-data-analysis-and-model_029.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 42 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_030.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_030.png)
+
+*fraud-data-analysis-and-model_030.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 43 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_031.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_031.png)
 
+*fraud-data-analysis-and-model_031.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 44 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_032.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_032.png)
+
+*fraud-data-analysis-and-model_032.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 45 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_033.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_033.png)
 
+*fraud-data-analysis-and-model_033.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 46 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_034.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_034.png)
+
+*fraud-data-analysis-and-model_034.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 47 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_035.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_035.png)
 
+*fraud-data-analysis-and-model_035.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 48 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_036.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_036.png)
+
+*fraud-data-analysis-and-model_036.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 49 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_037.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_037.png)
 
+*fraud-data-analysis-and-model_037.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 50 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_038.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_038.png)
+
+*fraud-data-analysis-and-model_038.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 51 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_039.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_039.png)
 
+*fraud-data-analysis-and-model_039.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 52 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_040.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_040.png)
+
+*fraud-data-analysis-and-model_040.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 53 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_041.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_041.png)
 
+*fraud-data-analysis-and-model_041.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 54 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_042.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_042.png)
+
+*fraud-data-analysis-and-model_042.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 55 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_043.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_043.png)
 
+*fraud-data-analysis-and-model_043.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 56 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_044.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_044.png)
+
+*fraud-data-analysis-and-model_044.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 57 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_045.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_045.png)
 
+*fraud-data-analysis-and-model_045.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 58 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_046.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_046.png)
+
+*fraud-data-analysis-and-model_046.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 59 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_047.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_047.png)
 
+*fraud-data-analysis-and-model_047.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 60 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_048.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_048.png)
+
+*fraud-data-analysis-and-model_048.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 61 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_049.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_049.png)
 
+*fraud-data-analysis-and-model_049.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 62 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_050.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_050.png)
+
+*fraud-data-analysis-and-model_050.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 63 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_051.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_051.png)
 
+*fraud-data-analysis-and-model_051.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 64 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_052.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_052.png)
+
+*fraud-data-analysis-and-model_052.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 65 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_053.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_053.png)
 
+*fraud-data-analysis-and-model_053.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 66 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_054.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_054.png)
+
+*fraud-data-analysis-and-model_054.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 67 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_055.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_055.png)
 
+*fraud-data-analysis-and-model_055.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 68 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_056.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_056.png)
+
+*fraud-data-analysis-and-model_056.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 69 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_057.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_057.png)
 
+*fraud-data-analysis-and-model_057.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 70 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_058.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_058.png)
+
+*fraud-data-analysis-and-model_058.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 71 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_059.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_059.png)
 
+*fraud-data-analysis-and-model_059.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 72 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_060.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_060.png)
+
+*fraud-data-analysis-and-model_060.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 73 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_061.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_061.png)
 
+*fraud-data-analysis-and-model_061.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 74 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_062.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_062.png)
+
+*fraud-data-analysis-and-model_062.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 75 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_063.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_063.png)
 
+*fraud-data-analysis-and-model_063.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 76 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_064.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_064.png)
+
+*fraud-data-analysis-and-model_064.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 77 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_065.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_065.png)
 
+*fraud-data-analysis-and-model_065.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 78 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_066.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_066.png)
+
+*fraud-data-analysis-and-model_066.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 79 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_067.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_067.png)
 
+*fraud-data-analysis-and-model_067.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 80 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_068.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_068.png)
+
+*fraud-data-analysis-and-model_068.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 81 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_069.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_069.png)
 
+*fraud-data-analysis-and-model_069.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 82 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_070.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_070.png)
+
+*fraud-data-analysis-and-model_070.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 83 — v1 EDA & Modeling
 
 ![fraud-data-analysis-and-model_071.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_071.png)
 
+*fraud-data-analysis-and-model_071.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
+
+### Figure 84 — v1 EDA & Modeling
+
 ![fraud-data-analysis-and-model_072.png](03_figures/notebook_outputs/fraud-data-analysis-and-model_072.png)
+
+*fraud-data-analysis-and-model_072.png — extracted from notebook cell output, part of the v1 EDA & Modeling analysis.*
 
 ## Repository Structure
 
