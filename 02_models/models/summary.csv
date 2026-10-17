@@ -1,0 +1,15 @@
+metric,value
+Training rows,"351,621"
+Validation rows,"75,347"
+Test rows,"75,348"
+Fraud rate (train),4.77%
+Fraud rate (test),6.31%
+Features,26
+Best iteration,482
+Training time (s),20.3
+Test ROC-AUC,0.9999
+Test PR-AUC,0.9987
+Test Recall (F1 thresh),0.9882
+Test Precision (F1 thresh),0.9891
+Test F1 (F1 thresh),0.9886
+Test Recall (cost thresh),0.9983

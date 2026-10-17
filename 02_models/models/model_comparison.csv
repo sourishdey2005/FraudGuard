@@ -1,0 +1,5 @@
+model,threshold,roc_auc,pr_auc,precision,recall,f1
+Logistic Regression,0.7368,0.7286,0.2405,0.2904,0.2776,0.2839
+LightGBM,0.1429,0.7435,0.2595,0.295,0.309,0.3018
+LightGBM (Calibrated),0.1429,0.7435,0.2595,0.295,0.309,0.3018
+ANN (MLP),0.6897,0.6824,0.1853,0.1893,0.2576,0.2182
