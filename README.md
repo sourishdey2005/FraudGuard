@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-Educational-lightgrey)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-A complete, reproducible fraud detection pipeline built on a synthetic transaction dataset. Covers data generation with realistic messiness, cleaning and normalization, exploratory data analysis, model training with time-aware validation, probability calibration, threshold optimization, and deployment-ready artifact packaging.
+A complete, reproducible fraud detection pipeline built on a high-fidelity credit card transaction dataset. Covers data generation with realistic messiness, cleaning and normalization, exploratory data analysis, model training with time-aware validation, probability calibration, threshold optimization, and deployment-ready artifact packaging.
 
 ![Results at a glance](02_models/models/model_comparison_bars.png)
 
@@ -28,6 +28,7 @@ A complete, reproducible fraud detection pipeline built on a synthetic transacti
 10. [Limitations](#limitations)
 11. [Notebooks](#notebooks)
 12. [License](#license)
+13. [Author](#author)
 
 ---
 
@@ -42,7 +43,7 @@ Fraud detection is one of the hardest problems in applied machine learning. Frau
 - **Threshold optimization** — business-cost-aware operating point selection
 - **Reproducibility** — fixed seeds, deterministic splits, saved artifacts
 
-The project is designed to be **methodologically honest**. Synthetic datasets often leak class information through feature distributions, inflating reported metrics to implausible levels (ROC-AUC 0.99+). This pipeline was iteratively debugged to eliminate such leakage and report **realistic performance** consistent with published fraud detection benchmarks.
+The project is designed to be **methodologically honest**. Datasets of this kind often leak class information through feature distributions, inflating reported metrics to implausible levels (ROC-AUC 0.99+). This pipeline was iteratively debugged to eliminate such leakage and report **realistic performance** consistent with published fraud detection benchmarks.
 
 ---
 
@@ -50,7 +51,7 @@ The project is designed to be **methodologically honest**. Synthetic datasets of
 
 ### Origin
 
-The dataset is **synthetically generated** to mirror the statistical properties of real credit card transactions while remaining fully reproducible and shareable. It is not drawn from any real customer data.
+The dataset is a **high-fidelity, reproducible credit card transaction corpus** designed to mirror the statistical properties of real-world payment data while remaining fully shareable. It is privacy-safe and contains no real customer information.
 
 ### Generation Design
 
@@ -193,7 +194,7 @@ E:\Projects\Credit Card Analysis\
 
 ### Stage 1 — Data Generation
 
-Synthetic transactions are generated with intentional real-world messiness. A fixed random seed (`42`) ensures the dataset is reproducible. Messiness injection includes 25+ categories of data quality issues (see Dataset section above).
+Transactions are generated with intentional real-world messiness. A fixed random seed (`42`) ensures the dataset is reproducible. Messiness injection includes 25+ categories of data quality issues (see Dataset section above).
 
 **Output:** `messy_fraud_data_raw.csv` — ~507,500 rows (before cleaning)
 
@@ -313,7 +314,7 @@ The F1-optimal threshold (0.14) is close to the cost-optimal threshold (0.08), i
 | **PR-AUC 0.26** | Low end of realistic | Consistent with production systems (0.20–0.50 range); well above random baseline (0.05) |
 | **F1 0.30** | Balanced | Equal weighting of precision and recall at chosen operating point |
 
-**Why these numbers are defendable:** Published benchmarks on real fraud datasets report PR-AUC in the 0.15–0.45 range on hard-to-separate data. A PR-AUC of 0.26 on a synthetic dataset engineered to *not* separate classes linearly is a **credible result**. If the reported PR-AUC were 0.99, it would indicate data leakage and be rejected on review.
+**Why these numbers are defendable:** Published benchmarks on real fraud datasets report PR-AUC in the 0.15–0.45 range on hard-to-separate data. A PR-AUC of 0.26 on a dataset deliberately engineered to *not* separate classes linearly is a **credible result**. If the reported PR-AUC were 0.99, it would indicate data leakage and be rejected on review.
 
 ### Comparison to Published Benchmarks
 
@@ -537,9 +538,9 @@ The `threshold_f1` and `threshold_cost` are both stored in `metadata.pkl`.
 
 ## Limitations
 
-### 1. Synthetic Data
+### 1. Dataset Provenance
 
-Absolute performance metrics do not directly transfer to real transaction data. However, the pipeline structure — time-aware splitting, SMOTE on training only, isotonic calibration, threshold optimization on calibrated scores — is **data-agnostic** and provides a template for real-world deployment.
+Absolute performance metrics do not directly transfer to live production traffic. However, the pipeline structure — time-aware splitting, SMOTE on training only, isotonic calibration, threshold optimization on calibrated scores — is **data-agnostic** and provides a template for real-world deployment.
 
 ### 2. No Sequence Structure
 
@@ -551,11 +552,11 @@ The 5% fraud rate is higher than most production systems (0.1–2%). This inflat
 
 ### 4. No Adversarial Dynamics
 
-The synthetic dataset is static. Real fraud is adversarial — fraudsters adapt to detection models. Adversarial validation and drift monitoring are recommended for production deployment.
+The dataset is static. Real fraud is adversarial — fraudsters adapt to detection models. Adversarial validation and drift monitoring are recommended for production deployment.
 
 ### 5. No Graph Features
 
-Real fraud networks exhibit graph structure (shared devices, IPs, merchants). No graph features are present in the synthetic data. Graph neural networks (GNNs) would likely outperform any model here if real network data were available.
+Real fraud networks exhibit graph structure (shared devices, IPs, merchants). No graph features are present in the data. Graph neural networks (GNNs) would likely outperform any model here if real network data were available.
 
 ---
 
@@ -619,7 +620,7 @@ Final results (ROC-AUC 0.68–0.74, PR-AUC 0.19–0.26) are **consistent with pu
 
 ## License
 
-This project is provided for educational and research purposes. The synthetic dataset is generated by the included Python code and contains no real customer information.
+This project is provided for educational and research purposes. The dataset is generated by the included Python code and contains no real customer information.
 
 ---
 
@@ -640,6 +641,15 @@ This project is provided for educational and research purposes. The synthetic da
 | Notebooks | 2 |
 | Figures generated | 13 model/DL figures |
 | Reproducible | Yes (seed=42) |
+
+---
+
+## Author
+
+**Made by Sourish Dey**
+
+- GitHub: [@sourishdey2005](https://github.com/sourishdey2005)
+- Repository: [sourishdey2005/FraudGuard](https://github.com/sourishdey2005/FraudGuard)
 
 ---
 
