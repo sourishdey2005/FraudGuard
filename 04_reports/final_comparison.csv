@@ -1,0 +1,4 @@
+model,threshold,roc_auc,pr_auc,precision,recall,f1
+FraudFormer (custom),0.3521,0.7692,0.533,0.8511,0.4473,0.5864
+LightGBM + AEGAN,0.3,0.7652,0.5268,0.8411,0.4357,0.5741
+LightGBM (baseline),0.3286,0.7661,0.5237,0.7985,0.4392,0.5667
